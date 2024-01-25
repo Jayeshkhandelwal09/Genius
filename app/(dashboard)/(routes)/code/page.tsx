@@ -11,7 +11,6 @@ import { Code } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { useRouter } from "next/navigation";
 import { zodResolver } from "@hookform/resolvers/zod";
-import ChatCompletionRequestMessage from "openai";
 import { cn } from "@/lib/utils";
 import Loader from "@/components/loader";
 
